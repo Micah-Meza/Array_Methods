@@ -203,7 +203,7 @@ function findEvenServings(element){
 
 let allEvenServings = findEvenServings();
 console.log("The dishes that have even servings are: ", allEvenServings);
-*/
+
 
 //5. Create a function that will return dishes whose ingredients array is "tomato" and "cheese".
 //Filter
@@ -227,11 +227,17 @@ function findIngredients(dish){
 let allIngredients = findIngredients();
 console.log("The dishes that have these ingredients are: ", allIngredients);
 
+*/
 
 //6. Create a function that will return an array of only the names of the cuisine types. Ie ['Italian', 'Mexican', ...]
 //Map
 
+let dishName = dishes.map(
+  function allDishNamea(dish){
+    return `The cuisine types are: ${dish.cuisine}.`
+});
 
+console.log(dishName);
 
 
 
